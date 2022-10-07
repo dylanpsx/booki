@@ -1,0 +1,232 @@
+
+/*header*/
+
+header
+{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 25px 0 15px 0px;
+}
+
+nav
+{
+    width: 100%;
+    margin-top: 10px;
+}
+
+nav ul
+{
+    padding-left: 0;
+}
+
+nav li
+{
+    margin-right: 0;
+    padding-bottom: 15px;
+    width: 50%;
+    border-bottom: 3px solid #f2f2ff;
+    text-align: center;
+}
+
+nav a:hover
+{
+    border-top: none;
+}
+
+nav li:hover
+{
+    color: #0065fc;
+    border-bottom: 3px solid #0065fc;
+    
+}
+
+/*main*/
+
+main
+{
+    margin: 0;
+}
+
+/*titre et description*/
+
+.slogan 
+{
+    flex-wrap: wrap;
+    margin: 0 20px;
+}
+
+/*formulaire de recherche*/
+
+form
+{
+    margin: 20px 20px 30px 20px;
+    width: 100%;
+    height: 50px;
+}
+
+input[type="text"]
+{
+    font-size: 16px;
+    width: 60%;
+}
+
+#search_button
+{
+    border-radius: 15px;
+    font-size: 18px;
+    margin-left: -8px;
+}
+
+#search_icon
+{
+    display: inline;
+}
+
+#search_text
+{
+    display: none;
+}
+
+/*filtres*/
+
+#filters
+{
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-left: 20px;
+}
+
+.filters_style
+{
+    margin: 0 10px 10px 0;
+}
+
+/*info*/
+
+#info
+{
+    align-items: baseline;
+    margin: 20px;
+}
+
+.cercle_icon
+{
+    padding: 10px;
+}
+
+/*hébergement à marseille*/
+
+#lodging
+{
+    flex-direction: column-reverse;
+    margin-bottom: 0px;
+}
+
+#lodging section
+{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.lodging_content .row:last-child
+{
+    margin-top: 0;
+}
+
+.row
+{
+    flex-direction: column;
+    margin: 0;
+}
+
+.cards_lodging
+{
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+
+.lodging_button
+{
+    padding-top: 0;
+}
+
+/*les plus populaire*/
+
+#most_popular
+{
+    border-radius: 0;
+    padding: 20px;
+}
+
+#most_popular header
+{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cards_mostPopular
+{
+    margin-bottom: 10px;
+}
+
+/*activités à marseille*/
+
+#activities
+{
+    margin: 0 20px 40px 20px;
+}
+
+.contents_activities
+{
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+
+.activities_column_1
+{
+    margin: 0;
+    width: 100%;
+}
+
+.activities_column_2
+{   
+    margin: 0;
+    width: 100%;
+}
+
+.cards_activities
+{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.cards_activities img
+{
+    height: 120px;
+}
+
+/*footer*/
+
+footer
+{
+    flex-direction: column;
+}
+
+#about
+{
+    width: 100%;
+}
+
+#our_lodging
+{
+    width: 100%;
+}
+
+#assistance
+{
+    width: 100%;
+}

@@ -1,0 +1,131 @@
+  
+/*header*/
+
+header
+{
+    margin-right: 0px;
+}
+  
+/*main*/
+
+/*slogan (titre et description) */
+
+main h1
+{
+    font-size: 18px;
+}
+
+main .slogan p 
+{
+    font-size: 16px;
+}
+
+/*formulaire de recherche*/
+
+form
+{
+    margin-bottom: 30px;
+}
+
+/*filters*/
+
+#filters
+{
+    flex-wrap: wrap;
+}
+
+#filters h3
+{
+    margin: 0 30px 16px 0;
+}
+
+.all_filters
+{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.filters_style
+{
+    margin-bottom: 10px;
+}
+
+/*hébergement à marseille et les plus populaires*/
+
+#lodging
+{
+    flex-direction: column-reverse;
+}
+
+#lodging section
+{
+    margin: 40px 0 0px 0;
+}
+
+#most_popular
+{
+    margin-left: 0;
+}
+
+/*activities*/
+
+.contents_activities
+{
+    height: 300px;
+}
+
+.card_1 img{
+    height: 79%;
+}
+
+.card_2
+{
+    height: 56%;
+    margin-bottom: 30px;
+}
+
+.card_2 img
+{
+    height: 65%;
+}
+
+.card_3
+{
+    height: 34%;
+}
+
+.card_3 img
+{
+    height: 55%;
+}
+
+.card_4 img
+{
+    height: 79%;   
+}
+
+.card_5
+{
+    height: 45%;
+    margin-bottom: 30px;
+}
+
+.card_5 img
+{
+    height: 52%;
+}
+
+.card_6
+{
+    height: 45%;
+}
+
+.card_6 img
+{
+    height: 70%;
+}
+
+#activities  h4 
+{
+    margin: 10px 0;
+}
